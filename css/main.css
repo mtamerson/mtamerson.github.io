@@ -1,0 +1,120 @@
+.navbar-brand {
+    color: white;
+    font-family: cursive;
+    margin: 0;
+}
+
+.jumbotron {
+    height: 600px;
+    background-image: url('../images/jumbotron-img.jpg');
+    background-position: center;
+    margin-top: 50px;
+}
+
+.jumbotron .container {
+    background-color:rgba(0,0,0,0.5);
+    float: left;
+    max-height: 95%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-family: Arial;
+}
+
+.jumbotron p {
+    color: white;
+    font-family: Arial;
+}
+
+.page-content {
+    margin-top: 90px;   
+}
+
+.page-content h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    color: #3071A9;
+}
+
+.page-content h3{
+    color: #555555;   
+}
+
+.page-content .lead {
+    font-size: large;   
+}
+
+.page-content p {
+    color: #555666;
+}
+
+.row {
+    margin: auto;
+}
+
+.main .thumbnail img {
+    max-width: 300px;
+    max-height: 180px;
+    display: inline-block;
+}
+
+.main .thumbnail {
+    border: none;
+}
+
+.main .caption {
+    color: #555555   
+}
+
+.muted-credit {
+    padding-top: 20px;
+    color: #555555
+}
+
+#other-projects {
+    max-width: none;
+    max-height: none;
+}
+
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+        margin-top: 30px;
+      }
+      #footer {
+        background-color: #aaa;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
