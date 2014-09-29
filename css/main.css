@@ -66,7 +66,7 @@
     border: none;
 }
 
-.main .caption {
+.caption {
     color: #555555   
 }
 
@@ -78,6 +78,10 @@
 #other-projects {
     max-width: none;
     max-height: none;
+}
+
+#codeCademy-caption {
+    padding-top: 10px;   
 }
 
 
