@@ -1,3 +1,31 @@
+/*Fonts*/
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    }
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    color: #555666;
+    }
+p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+/*------------------------------------*/
+
 .navbar-brand {
     color: white;
     font-family: cursive;
@@ -5,7 +33,7 @@
 }
 
 .jumbotron {
-    height: 600px;
+    height: 500px;
     background-image: url('../images/jumbotron-img.jpg');
     background-position: center;
     margin-top: 50px;
@@ -21,12 +49,17 @@
 
 .jumbotron h1 {
     color: white;
-    font-family: Arial;
+    font-family:'Roboto Condensed', sans-serif;;
+    padding-top: 20px
 }
 
 .jumbotron p {
     color: white;
-    font-family: Arial;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 .page-content {
@@ -35,12 +68,12 @@
 
 .page-content h1 {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
     margin-bottom: 30px;
+    margin-top: 30px;
     color: #3071A9;
 }
 
-.page-content h3{
+.page-content h3, h4 {
     color: #555555;   
 }
 
@@ -50,6 +83,7 @@
 
 .page-content p {
     color: #555666;
+    font-size: medium;
 }
 
 .row {
@@ -67,7 +101,8 @@
 }
 
 .caption {
-    color: #555555   
+    color: #555555;
+    padding: inherit;
 }
 
 .muted-credit {
@@ -122,3 +157,4 @@
           padding-right: 20px;
         }
       }
+
