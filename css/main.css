@@ -12,15 +12,15 @@ h2 {
     font-family: 'Droid Serif', serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 28px;
     margin: 0 0 23px 0;
     color: #555666;
     }
 p {
     font-family: 'Droid Serif', serif;
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 25px;
     margin: 0 0 23px 0;
     }
 
@@ -49,8 +49,12 @@ p {
 
 .jumbotron h1 {
     color: white;
-    font-family:'Roboto Condensed', sans-serif;;
-    padding-top: 20px
+    font-family: Acme, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    text-transform: none;
+    padding-top: 20px;
 }
 
 .jumbotron p {
@@ -74,7 +78,8 @@ p {
 }
 
 .page-content h3, h4 {
-    color: #555555;   
+    color: #555555;
+    font-size: 25px
 }
 
 .page-content .lead {
@@ -83,7 +88,6 @@ p {
 
 .page-content p {
     color: #555666;
-    font-size: medium;
 }
 
 .row {
@@ -110,13 +114,36 @@ p {
     color: #555555
 }
 
-#other-projects {
-    max-width: none;
-    max-height: none;
+.learn-more .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;    
 }
 
-#codeCademy-caption {
-    padding-top: 10px;   
+.projects h3 {
+    color: #3071A9;
+}
+
+.projects h4 {
+    font-size: 20px;    
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -158,3 +185,26 @@ p {
         }
       }
 
+
+.attribution {
+    font-size: 10px;
+    float: right;
+}
+
+
+
+
+/*------------------- Projects pcCarousel ------------------------------*/
+
+.item{
+    background: #333;    
+    text-align: center;
+    
+}
+.carousel{
+    margin-top: 20px;
+    max-width: 770px;
+}
+.pc-carousel{
+	margin: 20px;
+}
